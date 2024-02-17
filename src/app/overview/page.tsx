@@ -4,12 +4,11 @@ import Link from '@mui/material/Link';
 export default function Home() {
   return (
     <main>
-
       <Link underline="hover"
             color="inherit"
-            href="/overview"
+            href="/overview/overview-2"
       >
-        Overview
+        Overview-2
       </Link>
     </main>
   );
