@@ -22,7 +22,7 @@ export default function RootLayout({
       <body className={inter.className}>
         <AppRouterCacheProvider>
           <Breadcrumbs />
-          <Box display="flex" alignItems="center" sx={{minWidth:"90vw"}}  className="bg-blue-200">
+          <Box display="flex" flexDirection={"column"} alignItems="center" sx={{minWidth:"90vw", minHeight:"90vh"}}  className="bg-blue-200">
             {children}
           </Box>
         </AppRouterCacheProvider>
