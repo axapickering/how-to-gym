@@ -9,21 +9,9 @@ import { useState } from 'react';
 
 export default function BasicBreadcrumbs() {
 
-    const [paths,setPaths] = useState(() => { usePathname() || "" })
+    const [paths,setPaths] = useState("")
 
     const pathName = usePathname();
-
-    const previousPaths = pathName.split("/")
-         .map(path => {
-            <Link
-            underline="hover"
-            color="inherit"
-            href="/{path}"
-          >
-            {path}
-          </Link>
-         })
-
 
   return (
     <div role="presentation">
@@ -31,7 +19,6 @@ export default function BasicBreadcrumbs() {
         <Link underline="hover" color="inherit" href="/">
           Home
         </Link>
-        {previousPaths}
         <Typography color="text.primary">Current page</Typography>
       </Breadcrumbs>
       <Typography color="text.primary">{pathName}</Typography>
