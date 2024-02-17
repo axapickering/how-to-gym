@@ -3,7 +3,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import { AppRouterCacheProvider } from '@mui/material-nextjs/v13-appRouter';
 import Breadcrumbs from "./Breadcrumbs";
-import Container from '@mui/material/Container';
+import Box from '@mui/system/Box';
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -22,9 +22,9 @@ export default function RootLayout({
       <body className={inter.className}>
         <AppRouterCacheProvider>
           <Breadcrumbs />
-          <Container fixed sx={{minWidth:"90vw", minHeight:"90vw"}} className="bg-blue-200">
+          <Box display="flex" alignItems="center" sx={{minWidth:"90vw"}}  className="bg-blue-200">
             {children}
-          </Container>
+          </Box>
         </AppRouterCacheProvider>
       </body>
     </html>
