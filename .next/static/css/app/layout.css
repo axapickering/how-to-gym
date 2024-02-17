@@ -600,9 +600,6 @@ video {
 .flex {
   display: flex;
 }
-.grid {
-  display: grid;
-}
 .rounded {
   border-radius: 0.25rem;
 }

@@ -6,6 +6,7 @@ import Breadcrumbs from "./Breadcrumbs";
 import Box from '@mui/system/Box';
 
 const inter = Inter({ subsets: ["latin"] });
+inter.className = inter.className += " bg-blue-200"
 
 export const metadata: Metadata = {
   title: "How to gym",
@@ -22,7 +23,7 @@ export default function RootLayout({
       <body className={inter.className}>
         <AppRouterCacheProvider>
           <Breadcrumbs />
-          <Box display="flex" flexDirection={"column"} alignItems="center" sx={{minWidth:"90vw", minHeight:"90vh"}}  className="bg-blue-200">
+          <Box display="flex" flexDirection={"column"} alignItems="center" sx={{minWidth:"90vw", minHeight:"90vh"}} >
             {children}
           </Box>
         </AppRouterCacheProvider>

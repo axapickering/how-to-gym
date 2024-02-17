@@ -16,15 +16,25 @@
       "static/chunks/main-app.js",
       "static/chunks/app/overview/page.js"
     ],
-    "/overview/overview-2/page": [
+    "/gym/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/overview/overview-2/page.js"
+      "static/chunks/app/gym/page.js"
     ],
-    "/overview/overview-2/overview-3/page": [
+    "/nutrition/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/overview/overview-2/overview-3/page.js"
+      "static/chunks/app/nutrition/page.js"
+    ],
+    "/sleep/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/sleep/page.js"
+    ],
+    "/resources/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/resources/page.js"
     ]
   }
 }

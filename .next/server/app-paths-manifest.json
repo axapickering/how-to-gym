@@ -1,6 +1,7 @@
 {
   "/page": "app/page.js",
-  "/overview/page": "app/overview/page.js",
-  "/overview/overview-2/page": "app/overview/overview-2/page.js",
-  "/overview/overview-2/overview-3/page": "app/overview/overview-2/overview-3/page.js"
+  "/gym/page": "app/gym/page.js",
+  "/nutrition/page": "app/nutrition/page.js",
+  "/sleep/page": "app/sleep/page.js",
+  "/resources/page": "app/resources/page.js"
 }
