@@ -1,7 +1,7 @@
 {
+  "/not-found": "app/not-found.js",
   "/page": "app/page.js",
-  "/gym/page": "app/gym/page.js",
   "/nutrition/page": "app/nutrition/page.js",
-  "/sleep/page": "app/sleep/page.js",
-  "/resources/page": "app/resources/page.js"
+  "/gym/page": "app/gym/page.js",
+  "/test/page": "app/test/page.js"
 }

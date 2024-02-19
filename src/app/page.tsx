@@ -1,5 +1,5 @@
+import * as React from 'react';
 import Link from '@mui/material/Link';
-import Grid from '@mui/material/Unstable_Grid2'; // Grid version
 import Typography from '@mui/material/Typography';
 import Box from "@mui/system/Box";
 import HomePageNavButtons from './HomePageNavButtons';
@@ -22,3 +22,4 @@ export default function Home() {
     </Box>
   );
 }
+
