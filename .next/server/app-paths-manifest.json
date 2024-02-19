@@ -1,7 +1,7 @@
 {
-  "/not-found": "app/not-found.js",
   "/page": "app/page.js",
+  "/overview/page": "app/overview/page.js",
   "/nutrition/page": "app/nutrition/page.js",
-  "/gym/page": "app/gym/page.js",
-  "/test/page": "app/test/page.js"
+  "/nutrition/macros/test/page": "app/nutrition/macros/test/page.js",
+  "/nutrition/macros/page": "app/nutrition/macros/page.js"
 }

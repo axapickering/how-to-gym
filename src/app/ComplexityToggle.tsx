@@ -1,27 +1,25 @@
 'use client';
 import * as React from 'react';
-import FormControlLabel from '@mui/material/FormControlLabel';
-import Switch from '@mui/material/Switch';
-import { createContext } from 'vm';
+import ToggleButton from '@mui/material/ToggleButton';
+import ToggleButtonGroup from '@mui/material/ToggleButtonGroup';
 
+export default function ColorToggleButton() {
+  const [complexity, setComplexity] = React.useState('simple');
 
-const ComplexityContext = createContext();
+  const handleChange = (event, newComplexity) => {
+    setComplexity(newComplexity);
+  };
 
-export function ComplexityToggle() {
-
-
-    const [isSimple, setIsSimple] = React.useState(true);
-
-    return (
-        <ComplexityContext.Provider value={{ isSimple }}>
-            <Toggler />
-        </ComplexityContext.Provider>
-    );
-
-    }
-
-function Toggler() {
-    return (
-        <FormControlLabel control={<Switch />} label="Label" />
-    );
+  return (
+    <ToggleButtonGroup
+      color="secondary"
+      value={complexity}
+      exclusive
+      onChange={handleChange}
+      aria-label="Platform"
+    >
+      <ToggleButton value="simple">Simple</ToggleButton>
+      <ToggleButton value="complex">Complex</ToggleButton>
+    </ToggleButtonGroup>
+  );
 }

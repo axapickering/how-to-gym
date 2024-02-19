@@ -9,10 +9,6 @@ export default function Home() {
   return (
     <Box sx={{ minWidth: "95vw", minHeight: "90vh"}} mx={"auto"}>
 
-      <Link underline="hover" color="inherit" href="/overview">
-        <Typography height={2}>Overview</Typography>
-      </Link>
-
       <Box className="rounded" minHeight={300} bgcolor={"lavender"} my={10}>
         <Typography></Typography>
       </Box>

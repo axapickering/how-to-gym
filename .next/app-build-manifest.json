@@ -21,10 +21,25 @@
       "static/chunks/main-app.js",
       "static/chunks/app/gym/page.js"
     ],
-    "/test/page": [
+    "/overview/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/test/page.js"
+      "static/chunks/app/overview/page.js"
+    ],
+    "/sleep/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/sleep/page.js"
+    ],
+    "/nutrition/macros/test/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/nutrition/macros/test/page.js"
+    ],
+    "/nutrition/macros/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/nutrition/macros/page.js"
     ]
   }
 }

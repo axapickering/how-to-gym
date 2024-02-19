@@ -9,9 +9,27 @@ import { useState } from 'react';
 
 export default function BasicBreadcrumbs() {
 
-    const [paths,setPaths] = useState("")
+  const pathLinks = {};
 
-    const pathName = usePathname();
+  const paths = usePathname()
+    .slice(1)
+    .split('/');
+
+  for (let i = 0; i < paths.length; i++) {
+    pathLinks[paths[i]] = "/" + paths.slice(0,i+1).join('/');
+  }
+
+  for (let path in pathLinks) {
+    console.log(`${path} : ${pathLinks[path]}`)
+  }
+
+  const crumbs = paths
+    .map(segment => {
+      return (<Link underline="hover" color="inherit" href={pathLinks[segment]}>
+        {segment}
+      </Link>
+      );
+    });
 
   return (
     <div role="presentation">
@@ -19,9 +37,8 @@ export default function BasicBreadcrumbs() {
         <Link underline="hover" color="inherit" href="/">
           Home
         </Link>
-        <Typography color="text.primary">Current page</Typography>
+        {crumbs}
       </Breadcrumbs>
-      <Typography color="text.primary">{pathName}</Typography>
     </div>
   );
 }
