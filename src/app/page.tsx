@@ -7,13 +7,15 @@ import HomePageNavButtons from './HomePageNavButtons';
 export default function Home() {
 
   return (
-    <Box sx={{ minWidth: "95vw", minHeight: "90vh"}} mx={"auto"}>
+    <Box sx={{ minWidth: "95vw", minHeight: "90vh" }} mx={"auto"}>
 
-      <Box className="rounded" minHeight={300} bgcolor={"lavender"} my={10}>
-        <Typography>Guide</Typography>
-      </Box>
+      <Link underline="none" href="/guide">
+        <Box className="rounded" borderRadius={10} textAlign={'center'} mx={'auto'} maxWidth={'60vw'} bgcolor={"#00BFFF"} my={10}>
+          <Typography m={'auto'} fontSize={'5rem'} color={'white'}>Guide</Typography>
+        </Box>
+      </Link>
 
-      <HomePageNavButtons/>
+      <HomePageNavButtons />
 
     </Box>
   );

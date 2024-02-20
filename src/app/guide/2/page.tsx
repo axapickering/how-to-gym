@@ -15,7 +15,7 @@ export default function Guide() {
       <br/>
       This is how we get results in the gym. We impose stress on our bodies and allow them to heal. The adaptation you gain is directly related to the stress you place on your body.
       <br/>
-      <Link href='/guide/2'>Page 3: What's in the gym?</Link>
+      <Link href='/guide/3'>Page 3: What's in the gym?</Link>
     </main>
   );
 }

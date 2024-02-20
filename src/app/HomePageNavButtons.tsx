@@ -5,7 +5,7 @@ import RestaurantIcon from '@mui/icons-material/Restaurant';
 import FitnessCenterIcon from '@mui/icons-material/FitnessCenter';
 import HotelIcon from '@mui/icons-material/Hotel';
 import BookIcon from '@mui/icons-material/Book';
-import Link from 'next/link';
+import Link from '@mui/material/Link';
 
 
 export default function HomePageNavButtons() {

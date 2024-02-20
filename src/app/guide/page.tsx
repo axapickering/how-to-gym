@@ -1,6 +1,7 @@
 import * as React from 'react';
 import Image from "next/image";
 import Link from '@mui/material/Link';
+import PrevNextButtons from '../PrevNextButtons';
 
 export default function Guide() {
   return (
@@ -15,6 +16,7 @@ export default function Guide() {
       <br/>
       Go in with the mindset of making realistic, lasting changes. What can you commit to? It's better to go once a week indefinitely than 5 times a week and burn out.
       <br/>
+      <PrevNextButtons prev='#' next='/guide/2'/>
       <Link href='/guide/2'>Page 2: Adaptations</Link>
     </main>
   );
