@@ -7,6 +7,7 @@ import HotelIcon from '@mui/icons-material/Hotel';
 import BookIcon from '@mui/icons-material/Book';
 import Link from 'next/link';
 
+
 export default function HomePageNavButtons() {
     const buttonText = [
         ['Gym', 'red', <FitnessCenterIcon />, "/gym"],

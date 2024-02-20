@@ -4,31 +4,24 @@ import Typography from '@mui/material/Typography';
 import Breadcrumbs from '@mui/material/Breadcrumbs';
 import Link from '@mui/material/Link';
 import { usePathname } from 'next/navigation';
+import urlMap from './urlMap';
 import { useState } from 'react';
 
 
 export default function BasicBreadcrumbs() {
 
-  const pathLinks = {};
-
   const paths = usePathname()
-    .slice(1)
     .split('/');
 
-  for (let i = 0; i < paths.length; i++) {
-    pathLinks[paths[i]] = "/" + paths.slice(0,i+1).join('/');
-  }
-
-  for (let path in pathLinks) {
-    console.log(`${path} : ${pathLinks[path]}`)
-  }
+  // only using paths that are non-empty
 
   const crumbs = paths
     .map(segment => {
-      return (<Link underline="hover" color="inherit" href={pathLinks[segment]}>
+      console.log(`segment: ${segment}. url : ${urlMap.get(segment)}`)
+      return segment != '' ? (<Link underline="hover" color="inherit" href={urlMap.get(segment)}>
         {segment}
       </Link>
-      );
+      ) : '';
     });
 
   return (

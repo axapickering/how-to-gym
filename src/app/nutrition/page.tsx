@@ -5,7 +5,6 @@ import Link from '@mui/material/Link';
 export default function Home() {
   return (
     <main>
-      Hi!
     </main>
   );
 }

@@ -263,17 +263,6 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 
 /***/ }),
 
-/***/ "(ssr)/./node_modules/@mui/material/Link/index.js":
-/*!**************************************************!*\
-  !*** ./node_modules/@mui/material/Link/index.js ***!
-  \**************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* reexport safe */ _Link__WEBPACK_IMPORTED_MODULE_0__[\"default\"]),\n/* harmony export */   getLinkUtilityClass: () => (/* reexport safe */ _linkClasses__WEBPACK_IMPORTED_MODULE_1__.getLinkUtilityClass),\n/* harmony export */   linkClasses: () => (/* reexport safe */ _linkClasses__WEBPACK_IMPORTED_MODULE_1__[\"default\"])\n/* harmony export */ });\n/* harmony import */ var _Link__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Link */ \"(ssr)/./node_modules/@mui/material/Link/Link.js\");\n/* harmony import */ var _linkClasses__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./linkClasses */ \"(ssr)/./node_modules/@mui/material/Link/linkClasses.js\");\n/* __next_internal_client_entry_do_not_use__ default,linkClasses,* auto */ \n\n\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKHNzcikvLi9ub2RlX21vZHVsZXMvQG11aS9tYXRlcmlhbC9MaW5rL2luZGV4LmpzIiwibWFwcGluZ3MiOiI7Ozs7Ozs7OzJFQUVpQztBQUNzQjtBQUN6QiIsInNvdXJjZXMiOlsid2VicGFjazovL2hvdy10by1neW0vLi9ub2RlX21vZHVsZXMvQG11aS9tYXRlcmlhbC9MaW5rL2luZGV4LmpzPzFlOWMiXSwic291cmNlc0NvbnRlbnQiOlsiJ3VzZSBjbGllbnQnO1xuXG5leHBvcnQgeyBkZWZhdWx0IH0gZnJvbSAnLi9MaW5rJztcbmV4cG9ydCB7IGRlZmF1bHQgYXMgbGlua0NsYXNzZXMgfSBmcm9tICcuL2xpbmtDbGFzc2VzJztcbmV4cG9ydCAqIGZyb20gJy4vbGlua0NsYXNzZXMnOyJdLCJuYW1lcyI6WyJkZWZhdWx0IiwibGlua0NsYXNzZXMiXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///(ssr)/./node_modules/@mui/material/Link/index.js\n");
-
-/***/ }),
-
 /***/ "(ssr)/./node_modules/@mui/material/Link/linkClasses.js":
 /*!********************************************************!*\
   !*** ./node_modules/@mui/material/Link/linkClasses.js ***!
@@ -1742,18 +1731,6 @@ const __default__ = proxy.default;
 
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__default__);
-
-/***/ }),
-
-/***/ "(rsc)/./node_modules/@mui/material/Link/index.js":
-/*!**************************************************!*\
-  !*** ./node_modules/@mui/material/Link/index.js ***!
-  \**************************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-/* __next_internal_client_entry_do_not_use__ default,linkClasses,* auto */ const { createProxy } = __webpack_require__(/*! next/dist/build/webpack/loaders/next-flight-loader/module-proxy */ "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-loader/module-proxy.js");
-module.exports = createProxy("/home/axa/how-to-gym/node_modules/@mui/material/Link/index.js");
-
 
 /***/ }),
 

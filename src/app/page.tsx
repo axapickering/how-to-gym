@@ -10,7 +10,7 @@ export default function Home() {
     <Box sx={{ minWidth: "95vw", minHeight: "90vh"}} mx={"auto"}>
 
       <Box className="rounded" minHeight={300} bgcolor={"lavender"} my={10}>
-        <Typography></Typography>
+        <Typography>Guide</Typography>
       </Box>
 
       <HomePageNavButtons/>

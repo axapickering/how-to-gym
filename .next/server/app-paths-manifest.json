@@ -1,7 +1,5 @@
 {
   "/page": "app/page.js",
-  "/overview/page": "app/overview/page.js",
   "/nutrition/page": "app/nutrition/page.js",
-  "/nutrition/macros/test/page": "app/nutrition/macros/test/page.js",
-  "/nutrition/macros/page": "app/nutrition/macros/page.js"
+  "/nutrition/macros/test/page": "app/nutrition/macros/test/page.js"
 }
