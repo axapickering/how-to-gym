@@ -1,6 +1,7 @@
 import * as React from 'react';
 import Image from "next/image";
 import Link from '@mui/material/Link';
+import PrevNextButtons from '../../PrevNextButtons';
 
 export default function Guide() {
   return (
@@ -15,7 +16,7 @@ export default function Guide() {
       <br/>
       This is how we get results in the gym. We impose stress on our bodies and allow them to heal. The adaptation you gain is directly related to the stress you place on your body.
       <br/>
-      <Link href='/guide/3'>Page 3: What's in the gym?</Link>
+      <PrevNextButtons prev='/guide' next='/guide/3'/>
     </main>
   );
 }

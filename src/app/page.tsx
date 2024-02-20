@@ -11,7 +11,7 @@ export default function Home() {
 
       <Link underline="none" href="/guide">
         <Box className="rounded" borderRadius={10} textAlign={'center'} mx={'auto'} maxWidth={'60vw'} bgcolor={"#00BFFF"} my={10}>
-          <Typography m={'auto'} fontSize={'5rem'} color={'white'}>Guide</Typography>
+          <Typography m={'auto'} fontSize={'5rem'} color={'black'}>Guide</Typography>
         </Box>
       </Link>
 

@@ -1,6 +1,7 @@
 import * as React from 'react';
 import Image from "next/image";
 import Link from '@mui/material/Link';
+import PrevNextButtons from '../../PrevNextButtons';
 
 export default function Guide() {
   return (
@@ -19,7 +20,7 @@ export default function Guide() {
       <br/>
       A big takeaway here is that all equipment in a gym generally serves a purpose, and confining yourself to only free weights or machines will hinder you in the long run.
       <br/>
-      <Link href='/guide/2'>Page 3: What's in the gym?</Link>
+      <PrevNextButtons prev="/guide/2" next="#"/>
     </main>
   );
 }

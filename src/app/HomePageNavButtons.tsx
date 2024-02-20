@@ -16,8 +16,8 @@ export default function HomePageNavButtons() {
         ['Resources', 'white', <BookIcon />, "/resources"]];
 
     const buttons = buttonText.map(text => {
-        return (<Link href={text[3]}>
-            <Grid padding={5} alignContent={"center"} borderRadius={8} xs={5} md={10} bgcolor={text[1]}>
+        return (<Link underline="none" href={text[3]}>
+            <Grid color="black" padding={5} alignContent={"center"} borderRadius={8} xs={5} md={10} bgcolor={text[1]}>
                 {text[2]}
                 <Typography fontSize={40}>{text[0]}</Typography>
             </Grid>
