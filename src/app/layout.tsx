@@ -5,6 +5,7 @@ import "./globals.css";
 import { AppRouterCacheProvider } from '@mui/material-nextjs/v13-appRouter';
 import Header from './Header';
 import Box from '@mui/system/Box';
+import ComplexityProvider from './ComplexityProvider';
 
 const inter = Inter({ subsets: ["latin"] });
 inter.className = inter.className += " bg-blue-200"
@@ -25,7 +26,9 @@ export default function RootLayout({
         <AppRouterCacheProvider>
           <Header/>
           <Box display="flex" flexDirection={"column"} alignItems="center" sx={{minWidth:"90vw", minHeight:"90vh"}} >
+            <ComplexityProvider>
             {children}
+            </ComplexityProvider>
           </Box>
         </AppRouterCacheProvider>
       </body>

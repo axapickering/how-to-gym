@@ -597,6 +597,9 @@ video {
     max-width: 1536px;
   }
 }
+.absolute {
+  position: absolute;
+}
 .isolate {
   isolation: isolate;
 }

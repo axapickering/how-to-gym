@@ -1,11 +1,10 @@
 "use client";
 import * as React from 'react';
-import Typography from '@mui/material/Typography';
 import Breadcrumbs from '@mui/material/Breadcrumbs';
 import Link from '@mui/material/Link';
 import { usePathname } from 'next/navigation';
 import urlMap from './urlMap';
-import { useState } from 'react';
+import HomeIcon from '@mui/icons-material/Home';
 
 
 export default function BasicBreadcrumbs() {
@@ -28,7 +27,7 @@ export default function BasicBreadcrumbs() {
     <div role="presentation">
       <Breadcrumbs aria-label="breadcrumb">
         <Link underline="hover" color="inherit" href="/">
-          Home
+          <HomeIcon fontSize='medium'/>
         </Link>
         {crumbs}
       </Breadcrumbs>
