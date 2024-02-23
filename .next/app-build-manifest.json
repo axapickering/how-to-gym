@@ -1,5 +1,10 @@
 {
   "pages": {
+    "/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/page.js"
+    ],
     "/layout": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
@@ -11,30 +16,35 @@
       "static/chunks/main-app.js",
       "static/chunks/app/guide/page.js"
     ],
-    "/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/page.js"
-    ],
     "/guide/layout": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/guide/layout.js"
     ],
-    "/guide/time-management/page": [
+    "/guide/adaptations/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/guide/time-management/page.js"
+      "static/chunks/app/guide/adaptations/page.js"
     ],
     "/guide/mindset/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/guide/mindset/page.js"
     ],
-    "/guide/adaptations/page": [
+    "/guide/time-management/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/guide/adaptations/page.js"
+      "static/chunks/app/guide/time-management/page.js"
+    ],
+    "/guide/equipment/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/guide/equipment/page.js"
+    ],
+    "/guide/routine/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/guide/routine/page.js"
     ]
   }
 }

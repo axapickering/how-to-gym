@@ -1,7 +1,6 @@
 {
-  "/page": "app/page.js",
   "/guide/page": "app/guide/page.js",
-  "/guide/time-management/page": "app/guide/time-management/page.js",
   "/guide/adaptations/page": "app/guide/adaptations/page.js",
-  "/guide/mindset/page": "app/guide/mindset/page.js"
+  "/guide/mindset/page": "app/guide/mindset/page.js",
+  "/guide/routine/page": "app/guide/routine/page.js"
 }

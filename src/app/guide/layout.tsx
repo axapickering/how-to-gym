@@ -9,7 +9,7 @@ export default function GuideLayout({
 }) {
     return <section>
         <GuideNav/>
-        <Box minHeight={'80vh'} maxWidth={'60vw'} position={'absolute'} right={'5vw'} top={'18vh'} >
+        <Box height={'90vh'} maxWidth={'64vw'} position={'absolute'} right={'5vw'} top={'18vh'} >
             {children}
         </Box>
     </section>;
